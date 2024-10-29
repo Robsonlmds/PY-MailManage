@@ -1,0 +1,24 @@
+# Código para Gerenciamento de Emails
+
+Este código em Python utiliza as bibliotecas `imaplib` e `smtplib` para gerenciar emails, permitindo enviar, responder e verificar emails não lidos. Abaixo está uma descrição das principais partes do código.
+
+## Dependências
+
+As bibliotecas utilizadas são:
+
+- `imaplib`: Para acessar emails via IMAP.
+- `smtplib`: Para enviar emails via SMTP.
+- `email`: Para criar e manipular mensagens de email.
+- `logging`: Para registrar informações e erros.
+
+## Configuração
+
+A classe `Config` contém as configurações necessárias para a conexão com os servidores de email:
+
+```python
+class Config:
+    EMAIL_HOST_IMAP = 'imap.gmail.com'  # Servidor IMAP
+    EMAIL_HOST_SMTP = 'smtp.gmail.com'  # Servidor SMTP
+    EMAIL_USER = 'robsonlucas@gmail.com'  # Seu email pessoal
+    EMAIL_PASS = '*****************'  # Sua senha pessoal
+    DESTINATARIO = 'destinatario@gmail.com'  # Destinatário fixo

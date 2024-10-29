@@ -6,10 +6,10 @@ Este código em Python utiliza as bibliotecas `imaplib` e `smtplib` para gerenci
 
 As bibliotecas utilizadas são:
 
-- `imaplib`: Para acessar emails via IMAP.
-- `smtplib`: Para enviar emails via SMTP.
-- `email`: Para criar e manipular mensagens de email.
-- `logging`: Para registrar informações e erros.
+- **`imaplib`**: Para acessar emails via IMAP.
+- **`smtplib`**: Para enviar emails via SMTP.
+- **`email`**: Para criar e manipular mensagens de email.
+- **`logging`**: Para registrar informações e erros.
 
 ## Configuração
 
